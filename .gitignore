@@ -1,0 +1,100 @@
+# Dependencies
+node_modules/
+.node_modules/
+
+# Build output and generated files
+built/*
+dist/
+build.json
+coverage/
+internal/
+/lib/
+scripts/eslint/built/
+
+# Test cases and test output
+tests/cases/rwc/*
+tests/cases/perf/*
+tests/cases/**/*.js
+tests/cases/**/*.js.map
+tests/baselines/local/*
+tests/baselines/local.old/*
+tests/baselines/local/projectOutput/*
+tests/baselines/prototyping/local/*
+tests/baselines/reference/projectOutput/*
+tests/baselines/reference/testresults.tap
+tests/baselines/reference/dt
+tests/baselines/rwc/*
+tests/baselines/symlinks/*
+tests/services/baselines/local/*
+tests/services/baselines/prototyping/local/*
+tests/webTestServer.js
+tests/webTestServer.js.map
+tests/webhost/*.d.ts
+tests/webhost/webtsc.js
+tests/services/browser/typescriptServices.js
+tests/baselines/reference/project/nodeModules*/**/*
+!tests/cases/projects/projectOption/**/node_modules
+!tests/cases/projects/NodeModulesSearch/**/*
+!tests/cases/webharness/compilerToString.js
+
+# Generated compiler and parser files
+src/harness/*.js
+src/compiler/diagnosticInformationMap.generated.ts
+src/compiler/diagnosticMessages.generated.json
+src/parser/diagnosticInformationMap.generated.ts
+src/parser/diagnosticMessages.generated.json
+
+# Scripts
+scripts/debug.bat
+scripts/run.bat
+scripts/**/*.js
+scripts/**/*.js.map
+
+# Configuration files
+*.config
+
+# Package manager files
+yarn.lock
+yarn-error.log
+package-lock.json
+
+# IDE and editor settings
+.settings
+.idea
+**/.vs
+**/.vscode/*
+!**/.vscode/tasks.json
+!**/.vscode/settings.template.json
+!**/.vscode/launch.template.json
+!**/.vscode/extensions.json
+
+# Operating system files
+**/.DS_Store
+
+# Temporary files, logs, and reports
+*.swp
+~*.docx
+\#*\#
+.\#*
+*.actual
+.parallelperf.*
+*v8.log
+rwc-report.html
+.failed-tests
+TEST-results.xml
+test-args.txt
+.eslintcache
+
+# Other generated or local files
+*.config
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+#prompt instructions
+prompt.md
