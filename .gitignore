@@ -56,7 +56,6 @@ scripts/**/*.js.map
 # Package manager files
 yarn.lock
 yarn-error.log
-package-lock.json
 
 # IDE and editor settings
 .settings

@@ -1,4 +1,5 @@
 # AniTimeNow
+
 <img align="right" src="public/logo.svg" width="130" alt="AniTimeNow logo">
 
 AniTimeNow is a modern, responsive anime streaming frontend. It offers anime browsing, search and filtering, detailed anime pages, episode navigation, HLS video playback with subtitle support, user authentication, and watch history tracking.
@@ -32,22 +33,26 @@ Built with React, TypeScript, Vite, and Tailwind CSS, the application is designe
 ## 🛠️ Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/vishwassharma38/AniTimeNow.git
    cd AniTimeNow
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create your local environment file from the provided example:
+
    ```bash
    cp .env.example .env
    ```
 
    On Windows PowerShell:
+
    ```powershell
    Copy-Item .env.example .env
    ```
@@ -61,23 +66,23 @@ Built with React, TypeScript, Vite, and Tailwind CSS, the application is designe
 
 The repository includes `.env.example`, which documents the required variables. Copy it to a local `.env` file and adjust the values for your environment. The `.env` file is local-only and should not be committed.
 
-| Variable | Example | Purpose |
-| --- | --- | --- |
-| `VITE_API_BASE_URL` | `http://localhost:3000` | Base URL of the anime data API consumed by the frontend |
-| `VITE_PROXY_BASE_URL` | `http://localhost:3001/proxy` | Base URL of the Express video streaming proxy |
+| Variable              | Example                       | Purpose                                                 |
+| --------------------- | ----------------------------- | ------------------------------------------------------- |
+| `VITE_API_BASE_URL`   | `http://localhost:3000`       | Base URL of the anime data API consumed by the frontend |
+| `VITE_PROXY_BASE_URL` | `http://localhost:3001/proxy` | Base URL of the Express video streaming proxy           |
 
 These variable names are part of the existing frontend contract and must not be renamed.
 
 ## 📜 Available Scripts
 
-| Script | Description |
-| --- | --- |
-| `npm run dev` | Starts the Vite development server |
-| `npm run build` | Runs the TypeScript project compilation and the Vite production build |
-| `npm run lint` | Runs ESLint |
-| `npm run preview` | Previews the production build |
-| `npm run proxy` | Starts the Express streaming proxy |
-| `npm run start` | Runs the Vite development server and Express proxy concurrently |
+| Script            | Description                                                           |
+| ----------------- | --------------------------------------------------------------------- |
+| `npm run dev`     | Starts the Vite development server                                    |
+| `npm run build`   | Runs the TypeScript project compilation and the Vite production build |
+| `npm run lint`    | Runs ESLint                                                           |
+| `npm run preview` | Previews the production build                                         |
+| `npm run proxy`   | Starts the Express streaming proxy                                    |
+| `npm run start`   | Runs the Vite development server and Express proxy concurrently       |
 
 ## 🏗️ Architecture
 
@@ -121,7 +126,7 @@ This project is licensed under the MIT License. The original MIT license and cop
 
 ## 🙏 Credits
 
-The frontend of AniTimeNow is adapted from Pixel Anime by ChocoMeow, with permission from the original developer. The original repository is available at [https://github.com/ChocoMeow/Pixel-Anime](https://github.com/ChocoMeow/Pixel-Anime). The original MIT license and copyright notice are retained in [LICENSE](LICENSE).
+The frontend of AniTimeNow is adapted from Pixel Anime by ChocoMeow, The original repository is available at [https://github.com/ChocoMeow/Pixel-Anime](https://github.com/ChocoMeow/Pixel-Anime). The original MIT license and copyright notice are retained in [LICENSE](LICENSE).
 
 Additional acknowledgements:
 
