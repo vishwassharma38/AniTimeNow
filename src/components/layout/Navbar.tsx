@@ -59,8 +59,8 @@ const Navbar: React.FC = () => {
           {/* Left Section: Logo */}
           <div className="flex-shrink-0 flex items-center w-3/10 justify-start">
             <Link to="/" className="text-white font-bold text-xl flex items-center">
-              <span className="text-primary-400 mr-2">Pixel</span>
-              <span className="text-white">Anime</span>
+              <span className="text-primary-400">AniTime</span>
+              <span className="text-white">Now</span>
             </Link>
           </div>
 

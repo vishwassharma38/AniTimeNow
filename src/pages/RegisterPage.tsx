@@ -82,7 +82,7 @@ const RegisterPage: React.FC = () => {
           <div className="bg-jet-card rounded-xl p-8 shadow-lg border border-jetblack-800">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-white">Create Account</h2>
-              <p className="mt-2 text-gray-400">Join PixelAnime and start streaming</p>
+              <p className="mt-2 text-gray-400">Join AniTimeNow and start streaming</p>
             </div>
             
             {error && (

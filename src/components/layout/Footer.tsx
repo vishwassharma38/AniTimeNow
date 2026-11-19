@@ -12,8 +12,8 @@ const Footer: React.FC = () => {
           {/* Logo and Description */}
           <div>
             <Link to="/" className="text-white font-bold text-xl flex items-center">
-              <span className="text-primary-400 mr-2">Pixel</span>
-              <span className="text-white">Anime</span>
+              <span className="text-primary-400">AniTime</span>
+              <span className="text-white">Now</span>
             </Link>
             <p className="mt-2 text-gray-400 text-sm">
               Your ultimate destination for anime streaming. Watch your favorite anime series
@@ -83,7 +83,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-jetblack-800 mt-8 pt-6 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} PixelAnime. All Rights Reserved.
+            &copy; {currentYear} AniTimeNow. All Rights Reserved.
           </p>
         </div>
       </div>
